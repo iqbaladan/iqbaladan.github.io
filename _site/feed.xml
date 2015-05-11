@@ -5,15 +5,19 @@
     <description>A blog about my favorite web conferences.</description>
     <link>http://webconfs.me/</link>
     <atom:link href="http://webconfs.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 May 2015 10:12:44 -0400</pubDate>
-    <lastBuildDate>Mon, 11 May 2015 10:12:44 -0400</lastBuildDate>
+    <pubDate>Mon, 11 May 2015 12:17:18 -0400</pubDate>
+    <lastBuildDate>Mon, 11 May 2015 12:17:18 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Treehouse Meetups</title>
-        <description>&lt;p&gt;This is a post about all the awesome Treehouse meetups out there!&lt;/p&gt;
+        <description>&lt;p&gt;Treehouse is excited to announce new locations for Treehouse Meetups! Treehouse Meetups are events for Treehouse students, friends and anyone with an interest or passion for the web. Whether you’re beginner or advanced, everyone is welcome!&lt;/p&gt;
+
+&lt;p&gt;There are now Treehouse Meetups in &lt;a href=&quot;http://www.meetup.com/Treehouse-Chicago-Meetup/&quot;&gt;Chicago&lt;/a&gt;, &lt;a href=&quot;http://www.meetup.com/Treehouse-NYC/&quot;&gt;New York&lt;/a&gt;, &lt;a href=&quot;http://www.meetup.com/Treehouse-Portland/&quot;&gt;Portland&lt;/a&gt;, and &lt;a href=&quot;http://www.meetup.com/TeamTreehouse/&quot;&gt;Orlando&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Join your closest community to stay up-to-date with upcoming Treehouse Meetup news. If there isn’t a Treehouse Meetup next to you yet, don’t worry! Treehouse plans to continue to expand to new locations in the upcoming months.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 29 Apr 2015 18:34:34 -0400</pubDate>
+        <pubDate>Mon, 11 May 2015 12:17:18 -0400</pubDate>
         <link>http://webconfs.me/treehouse-meetups</link>
         <guid isPermaLink="true">http://webconfs.me/treehouse-meetups</guid>
         
