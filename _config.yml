@@ -15,6 +15,12 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+# Navigation bar
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
 # About/contact
 author:
   name:              Iqbal Adan
