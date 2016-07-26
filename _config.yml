@@ -1,5 +1,5 @@
 # Permalinks
-permalink:           /:title #pretty
+permalink:           pretty
 
 # Setup
 title:               Iqbal Adan
