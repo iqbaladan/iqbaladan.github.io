@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Iqbal Adan
+tagline:             Personal Blog
+url:                 
 paginate:            1
 baseurl:             ""
 
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Iqbal Adan
+  url:               https://twitter.com/iqbaladan
+  email:             iqbal.adan@gmail.com
 
 # Custom vars
 version:             2.0.0
