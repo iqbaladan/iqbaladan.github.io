@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Iqbal Adan
 locale: en_US
-description: Describe your website here.
+description: Persobal blog of Iqbal Adan
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: ''
 
 # Jekyll configuration
 
@@ -36,13 +36,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Iqbal Adan
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
+  email: iqbal.adan@gmail.com
+  disqus-shortname: iqbaladan
+  twitter: iqbaladan #username
   facebook: #username
-  github: #username
+  github: iqbaladan #username
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
