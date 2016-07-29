@@ -1,3 +1,7 @@
+---
+layout: post
+title: Markdown Testing
+---
 Ini adalah file yang ditulis untuk belajar di [Google]
 
 

@@ -8,8 +8,6 @@ layout: default
   {{ content }}
 </article>
 
-{% include disqus.html disqus_identifier=page.disqus_identifier %}
-
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Related posts</h3>
@@ -26,3 +24,4 @@ layout: default
 </aside>
 {% endif %}
 
+{% include disqus.html disqus_identifier=page.disqus_identifier %}
