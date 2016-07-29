@@ -1,25 +1,80 @@
-// Masthead
-//
-// Super small header above the content for site name and short description.
+/* ==========================================================================
+   Masthead
+   ========================================================================== */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-top: 40px;
+  @include clearfix;
+  @include media($medium) {
+    margin-top: 0;
+  }
+  .wrap {
+    text-align: center;
+    max-width: em(440);
+    padding-right: 20px;
+    padding-left: 20px;
+    @include media($medium) {
+      max-width: em(728);
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+    @include media($large) {
+      max-width: em(960);
+    }
+  }
 }
 
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: $gray-4;
+/*
+   Site logo
+   ========================================================================== */
 
-  a {
-    color: inherit;
+.site-logo {
+  img {
+    width: 100px;
+    height: 100px;
+    @include animation-duration(1s);
+      @include animation-delay(.05s);
+      border: 4px solid $white;
+      @include rounded(100px); /* crops in a circle */
+    @include media($medium) {
+      width: 150px;
+      height: 150px;
+      @include rounded(150px); /* crops in a circle */
+    }
+    @include media($large) {
+      width: 200px;
+      height: 200px;
+      @include rounded(200px); /* crops in a circle */
+    }
   }
+}
 
-  small {
-    font-size: 75%;
-    font-weight: 400;
-    opacity: .5;
+/*
+   Site title/name
+   ========================================================================== */
+
+.site-title {
+  margin-bottom: 0;
+  @include animation-duration(1s);
+    @include animation-delay(.75s);
+  a {
+    color: $black;
+  }
+}
+
+/*
+   Site description text
+   ========================================================================== */
+
+.site-description {
+  margin-top: 0;
+  font-family: $alt-font;
+  @include font-size(16);
+  font-weight: 400;
+  font-style: italic;
+  @include animation-duration(1s);
+    @include animation-delay(1s);
+  @include media($medium) {
+    @include font-size(20);
   }
 }
