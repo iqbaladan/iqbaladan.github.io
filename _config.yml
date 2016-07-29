@@ -1,34 +1,39 @@
-# Site settings
-title: Iqbal Adan - A blog about technical stuff.
-email: iqbal.adan@gmail.com
-description: A blog about my favorite web conferences.
-url: "" # the base hostname & protocol for your site
-twitter_username: iqbaladan
-paginate: 3
+# Permalinks
+permalink:           pretty
 
-# Build settings
-markdown: kramdown
-permalink: /:title
+# Setup
+title:               Iqbal Adan
+tagline:             Personal Blog
+url:                 
+paginate:            1
+baseurl:             ""
+comments:            True
 
-#Default settings
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      author: Iqbal Adan
-      layout: "post"
-      category: conferences
-      comments: true
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "page"
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
+# Navigation bar
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
 
+# About/contact
+author:
+  name:              Iqbal Adan
+  url:               https://twitter.com/iqbaladan
+  email:             iqbal.adan@gmail.com
 
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/iqbaladan/iqbaladan.github.io
 
-
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
