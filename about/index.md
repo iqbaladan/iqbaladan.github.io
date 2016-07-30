@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Iqbal Adan
+title: About
 excerpt: "Iqbal Adan is a Linux and FLOSS enthusiast and a Web Developer."
 image:
   feature: so-simple-sample-image-4.jpg
