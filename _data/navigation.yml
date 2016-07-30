@@ -1,16 +1,9 @@
 # Site navigation links
-
-- title: About
-  url: /about/
-
-- title: archives
-  url: /archives/
-
 - title: Blog
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: About
+  url: /about/
 
 - title: Search
   url: /search/

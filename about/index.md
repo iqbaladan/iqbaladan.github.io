@@ -1,26 +1,21 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
+title: About Iqbal Adan
+excerpt: "Iqbal Adan is a Linux and FLOSS enthusiast and a Web Developer."
 image:
   feature: so-simple-sample-image-4.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Web Developer and Linux Big Fan from Indonesia
 
-## So Simple Theme is all about:
+### More Information
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+Iqbal Adan has spent almost 5+ years as Experienced Linux Administrator and hardening Linux Server. Right now he is diving into the new world of Web Development and related Programming Skills. He spent almost his free time to learn how to code  and to develop websites or web apps.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+When he is not building related coding stuff, He use his time with his lovely family, reading, biking and doing some sport.
 
-[^1]: Example: *domain.com/category-name/post-title*
+### Contact me
+
+[iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com)
