@@ -2,13 +2,9 @@
 layout: page
 title: About
 excerpt: "Iqbal Adan is a Linux and FLOSS enthusiast and a Web Developer."
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Iqbal Adan is a Linux/FLOSS enthusiast and a Web Developer from Indonesia. This blog is his place to jot down his learning experiences both Linux/FLOSS and Web Development. He chooses to blog in Bahasa. He also writes his opinions and thoughts about his daily life on [Wordpress](https://iqbaladan.wordpress.com) sometimes. 
+Iqbal Adan is a Linux/FLOSS enthusiast and a Web Developer from Indonesia. This blog is his place to jot down his learning experiences both Linux/FLOSS and Web Development. He chooses to blog in Bahasa. He also writes his opinions and thoughts about his daily life on [Wordpress](https://iqbaladan.wordpress.com) sometimes.
 
 ### More Information
 
