@@ -1,9 +1,7 @@
-# Site navigation links
-- title: Blog
-  url: /blog/
+# main links links
+main:
+  - title: "Sample Navigation Link"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
 
-- title: About
-  url: /about/
-
-- title: Search
-  url: /search/
+  - title: "Sample Navigation Link 2"
+    url: /
