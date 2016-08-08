@@ -19,15 +19,19 @@ Mari kita berbagi, semoga bebarapa informasi di bawah ini berguna bagi kita-kita
 Pada kesempatan yang berbahagia ini, saya akan mencoba untuk berbagi beberapa tutorial untuk perintah-perintah Linux/UNIX, semoga bermanfaat.
 
 1. [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml)
+
 Koleksi perintah-perintah di sini akan sangat berguna, baik bagi pemula, terlebih bagi para penggiat dunia IT, juga pengguna yang sudah ahli.
 
 2. [Unix Tutorial untuk Pemula](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+
 Petunjuk pemula bagi yang ingin mempelajari Unix maupun sistem operasi Linux, delapan panduan sederhana ini, cocok untuk pemula yang baru bermain-main dengan Linux.
 
 3. [Linux Command and Learning Shell Tutorials](http://linuxcommand.org/learning_the_shell.php)
+
 Bukan Linux namanya kalau tidak berkutat dengan CLI, layar hitam, keren wak, kelihatan sekali seperti hacker-hacker yang pintar itu, mending pahami ini dulu dari pada melakukan penetrasi sistem, pemula minded.
 
 4. [Belajar Linux hanya dalam 10 menit](http://freeengineer.org/learnUNIXin10minutes.html)
+
 Well, ini tidak jauh beda dengan produk-produk marketing tak tahu adat itu, hanya dua minggu kulit jadi kelihatan lebih putih, dan bla bla bla lainnya, apa hubungannya?? Gak ada, yang ada cuma tidak ada sesuatu yang instan, semua butuh proses, Mekkah itu tidak dibangun satu malam.
 
 Dan di luar sana, tersedia banyak informasi, sesuai dengan kebutuhan, kita hanya perlu sedikit usaha, kemudian mencoba untuk menghormati waktu yang senior kita punya.
