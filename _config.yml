@@ -1,11 +1,11 @@
-name: Iqbal Adan - Blog
+name: Iqbal Adan
 description: Blogging about GNU/Linux and Web Developments
 meta_description: "Iqbal Adan, Blogging about his interest"
 
 aboutPage: true
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge #pygments
 
 paginate: 20
 paginate_path: "page:num"
