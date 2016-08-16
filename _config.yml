@@ -5,7 +5,7 @@ meta_description: "Iqbal Adan, Blogging about his interest"
 aboutPage: true
 
 markdown: kramdown
-highlighter: rouge #pygments
+highlighter: rouge
 
 paginate: 20
 paginate_path: "page:num"
