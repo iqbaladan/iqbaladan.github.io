@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Iqbal Adan</title>
+    <description>Blogging about GNU/Linux and Web Developments</description>
+    <link>http://iqbaladan.github.io</link>
+    <atom:link href="http://iqbaladan.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>CLI Infographics</title>
+        
+        
+          <description>&lt;p&gt;Berikut ini beberapa perintah di Terminal Linux yang sering digunakan oleh pengguna maupun pengembang pada pengguna Linux ataupun Mac.
+Infografis ini dapat dijadikan panduan sederhana dalam pengguanaan &lt;em&gt;Command Line Interface&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://learntocodewith.me/wp-content/uploads/2014/05/command-cheat-sheet.jpg&quot; alt=&quot;&amp;lt;img src=”http://learntocodewith.me/wp-content/uploads/2014/05/command-cheat-sheet.jpg” alt=’command cheat sheet’ width=’818px’ border=’0’/&amp;gt;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://learntocodewith.me/&quot;&gt;Laurence Bradford&lt;/a&gt;&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 12 Aug 2016 16:46:00 +0700</pubDate>
+        <link>http://iqbaladan.github.io/2016/cli/</link>
+        <guid isPermaLink="true">http://iqbaladan.github.io/2016/cli/</guid>
+      </item>
+    
+      <item>
+        <title>Linux untuk Pemula</title>
+        
+        
+          <description>&lt;p&gt;Dulu sekali, sebelum saya mengenal dan mempunya e-mail, saya sering bertanya sana sini tentang bagaimana membuat sebuah alamat e-mail, dan jawaban yang saya dapat waktu itu sangat sangat tidak menyenangkan, dari beberapa orang yang saya tanya, sarannya hampir semua sama, googling, cari dan baca sendiri.&lt;/p&gt;
+
+&lt;p&gt;Baiklah kalau begitu, jawaban itu sendiri sebenarnya sudah lebih dari cukup, tapi bagi seorang anak yang tidak pernah mengenal komputer, apatah lagi internet, jawaban yang lebih dari cukup tadi sungguh sangat tidak memuaskan, alih-alih memberikan petunjuk, justru yang terjadi adalah kosong, masalah nya bukan dimana, tapi bagaimana??? Google itu apa??? Lalu apa kata kunci yang harus saya ketik biar saya punya alamat email baru??? Ah menjadi pemula memang benar-benar tidak nyaman.&lt;/p&gt;
+
+&lt;p&gt;Ya saya paham maksud dari kata-kata googling-lah, baca-lah, ini-lah, itu-lah, agar supaya orang-orang yang pemula seperti saya ini bisa lebih menghargai waktu, lebih menghargai kerja keras yang sudah dilakukan oleh orang-orang yang ahli.&lt;/p&gt;
+
+&lt;p&gt;Semua saran dari senior itu pada hakikatnya tidak salah, hal itu, menurut saya, dilakukan agar pemula seperti saya ini tidak bengong saja saat senior atau yang lebih ahli bicara tentang hal yang saya tanyakan, minimal saya sudah baca, minimal saya sudah pernah dengar, beruntung kalau setelah baca, langsung paham, tanpa perlu bertanya lagi, nah kalau sudah begini, bukankah semua jadi untung? Senior bisa belajar hal baru yang lain, dan kita tidak menghabiskan waktunya yang berharga hanya untuk bertanya hal-hal yang itu saja, padahal di sana, di jagat maya berton-ton informasi yang bisa di dapat dari pertanyaan kita, yang perlu kita lakukan hanyalah sedikit berusaha.&lt;/p&gt;
+
+&lt;p&gt;Berangkat dari pengalaman menjadi pemula (sampai sekarang saya masih merasa diri pemula) tulisan kali ini muncul, niat ingin berbagi, hasrat ingin melihat anak muda melayu tidak bercengkrama dengan jeratan taring kapitalisme tak kenal adat dan budaya itu. Biar anak muda melayu bisa pintar, biar pun idola mereka Haji Rhoma Irama, tidak masalah, yang penting, tetap saja, masa muda, masa yang berapi-api. Jangan terlalu dipikirkan kata-kata yang saya gunakan di sini, tetap fokus saja pada informasi pentingnya.&lt;/p&gt;
+
+&lt;p&gt;Mari kita berbagi, semoga bebarapa informasi di bawah ini berguna bagi kita-kita yang baru memulai untuk belajar linux.&lt;/p&gt;
+
+&lt;p&gt;Pada kesempatan yang berbahagia ini, saya akan mencoba untuk berbagi beberapa tutorial untuk perintah-perintah Linux/UNIX, semoga bermanfaat.&lt;/p&gt;
+
+&lt;h4 id=&quot;unix-toolboxhttpcbvuunixtoolboxxhtml&quot;&gt;1. &lt;a href=&quot;http://cb.vu/unixtoolbox.xhtml&quot;&gt;Unix Toolbox&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Koleksi perintah-perintah di sini akan sangat berguna, baik bagi pemula, terlebih bagi para penggiat dunia IT, juga pengguna yang sudah ahli.&lt;/p&gt;
+
+&lt;h4 id=&quot;unix-tutorial-untuk-pemulahttpwwweesurreyacukteachingunix&quot;&gt;2. &lt;a href=&quot;http://www.ee.surrey.ac.uk/Teaching/Unix/&quot;&gt;Unix Tutorial untuk Pemula&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Petunjuk pemula bagi yang ingin mempelajari Unix maupun sistem operasi Linux, delapan panduan sederhana ini, cocok untuk pemula yang baru bermain-main dengan Linux.&lt;/p&gt;
+
+&lt;h4 id=&quot;linux-command-and-learning-shell-tutorialshttplinuxcommandorglearningtheshellphp&quot;&gt;3. &lt;a href=&quot;http://linuxcommand.org/learning_the_shell.php&quot;&gt;Linux Command and Learning Shell Tutorials&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Bukan Linux namanya kalau tidak berkutat dengan CLI, layar hitam, keren wak, kelihatan sekali seperti hacker-hacker yang pintar itu, mending pahami ini dulu dari pada melakukan penetrasi sistem, pemula minded.&lt;/p&gt;
+
+&lt;h4 id=&quot;belajar-linux-hanya-dalam-10-menithttpfreeengineerorglearnunixin10minuteshtml&quot;&gt;4. &lt;a href=&quot;http://freeengineer.org/learnUNIXin10minutes.html&quot;&gt;Belajar Linux hanya dalam 10 menit&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Well, ini tidak jauh beda dengan produk-produk marketing tak tahu adat itu, hanya dua minggu kulit jadi kelihatan lebih putih, dan bla bla bla lainnya, apa hubungannya?? Gak ada, yang ada cuma tidak ada sesuatu yang instan, semua butuh proses, Mekkah itu tidak dibangun satu malam.&lt;/p&gt;
+
+&lt;p&gt;Dan di luar sana, tersedia banyak informasi, sesuai dengan kebutuhan, kita hanya perlu sedikit usaha, kemudian mencoba untuk menghormati waktu yang senior kita punya.&lt;/p&gt;
+
+&lt;p&gt;Selalu, menjadi pemula itu sangat tidak menyenangkan, tapi mengapa mesti berkecil hati, semua ahli pernah jadi pemula, semua GURU pernah jadi NEWBIE, selama kita masih punya semangat, selama rasa ingin tahu masih tetap ada, PEMULA selalu akan menjadi AHLI.&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 08 Aug 2016 22:22:00 +0700</pubDate>
+        <link>http://iqbaladan.github.io/2016/solusi-pemula/</link>
+        <guid isPermaLink="true">http://iqbaladan.github.io/2016/solusi-pemula/</guid>
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        
+        
+          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 10 Nov 2013 17:18:00 +0700</pubDate>
+        <link>http://iqbaladan.github.io/2013/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://iqbaladan.github.io/2013/welcome-to-jekyll/</guid>
+      </item>
+    
+  </channel>
+</rss>

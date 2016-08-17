@@ -51,7 +51,7 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:18px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -112,7 +112,7 @@ nav.main-nav {
 	padding: 20px 20px 0;
 
 	/*max-width: 600px;*/
-	width:100%;
+	/*width:100%;*/
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
