@@ -48,11 +48,11 @@ margin-bottom: 20px;
 }
 
 /* Base */
-html, body { height: 100%; }
+html, body {height: 100%;}
 
 body {
-	font:18px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #666;
+	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666;	
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
