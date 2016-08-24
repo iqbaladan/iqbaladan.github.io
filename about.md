@@ -14,9 +14,9 @@ When he is not building related coding stuff, He use his time with his lovely fa
 
 ### Contact me
 
-* Twitter       : [@iqbaladan](https://twitter.com/iqbaladan)
-* Github        : [@iqbaladan](https://github.com/iqbaladan)
-* Facebook      : [@iqbal.adan.3](https://www.facebook.com/iqbal.adan.3)
-* E-mail        : [iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com)
+[to.iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com) |
+[twitter/iqbaladan](https://twitter.com/iqbaladan) |
+[github/iqbaladan](https://github.com/iqbaladan) |
+[facebook/iqbaladan](https://www.facebook.com/iqbal.adan.3) |
 
 {% include footer.html %}
