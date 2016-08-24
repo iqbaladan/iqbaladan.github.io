@@ -14,8 +14,7 @@ When he is not building related coding stuff, He use his time with his lovely fa
 
 ### Contact me
 
-[to.iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com) |
-[twitter/iqbaladan](https://twitter.com/iqbaladan) |
+[to.iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com)|[twitter/iqbaladan](https://twitter.com/iqbaladan) |
 [github/iqbaladan](https://github.com/iqbaladan) |
 [facebook/iqbaladan](https://www.facebook.com/iqbal.adan.3) |
 
