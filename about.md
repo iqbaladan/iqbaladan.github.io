@@ -13,8 +13,6 @@ Iqbal Adan has spent almost five years as experienced Linux Administrator and ha
 When he is not building related coding stuff, He use his time with his lovely family, read interesting books, biking and doing some sports.
 
 ### Contact me
-
-<span class="meta">[to.iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com)|[twitter/iqbaladan](https://twitter.com/iqbaladan)|[github/iqbaladan](https://github.com/iqbaladan)|[facebook/iqbaladan](https://www.facebook.com/iqbal.adan.3)
-</span>
+If you want to stay in touch, you could send him an email to [iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com), look what he shares on [Twitter](https://twitter.com/iqbaladan), what he did on his [Github account](https://github.com/iqbaladan), or perhaps want to be his Friend on [Facebook](https://www.facebook.com/iqbal.adan.3).
 
 {% include footer.html %}

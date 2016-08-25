@@ -51,8 +51,8 @@ margin-bottom: 20px;
 html, body {height: 100%;}
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #666;	
+	font:17px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -643,7 +643,8 @@ h2.month {
 	.post h2 { font-size:20px; }
 }
 
-/* Justifying text in post */
+/* Justifying text in post
 p {
   text-align: justify
 }
+ */
