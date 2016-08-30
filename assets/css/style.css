@@ -119,7 +119,7 @@ nav.main-nav {
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
+	/* position: fixed; */
 	z-index: 100;
 }
 
