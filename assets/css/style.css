@@ -48,11 +48,13 @@ margin-bottom: 20px;
 }
 
 /* Base */
-html, body { height: 100%; }
+html, body {height: 100%;}
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:17px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
+	margin: 0 auto;
+  	max-width: 50em;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
@@ -112,12 +114,12 @@ nav.main-nav {
 	padding: 20px 20px 0;
 
 	/*max-width: 600px;*/
-	/*width:100%;*/
+	width:100%;
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
+	/* position: fixed; */
 	z-index: 100;
 }
 
@@ -642,3 +644,9 @@ h2.month {
 	.post h1 { font-size:24px; }
 	.post h2 { font-size:20px; }
 }
+
+/* Justifying text in post
+p {
+  text-align: justify
+}
+ */
