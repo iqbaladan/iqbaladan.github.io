@@ -9,12 +9,15 @@ description: A free HTML & CSS tutorial
 #### 1. Web section terdiri dari 3 pelajaran.
 ![Web Section](/assets/images/05.09.2016-web.png)
 Pada bagian ini, Jeremy menjelaskan tentang apa itu internet, bagaimana dunia World Wide Web bekerja, dan juga apa yang sebenarnya terjadi ketika kita menulis satu alamat url di web browser.
+
 #### 2. HTML5 section terdiri dari 13 pelajaran.
 ![HTML5 Section](/assets/images/05.09.2016-html.png)
 Bagian ini menjelaskan tentang dasar-dasar HTML, section ini terdiri dari 13 pelajaran.
+
 #### 3. CSS 3 section terdiri dari 29 pelajaran.
 ![CSS3 Section](/assets/images/05.09.2016-css.png)
 Bagian ini menjelaskan tentang kegunaan dari CSS dan bagaimana CSS membuat sebuah web site menjadi menarik. Bagian ini terdiri dari 29 pelajaran.
+
 #### 4. SASS section terdiri dari 5 pelajaran.
 ![SASS Section](/assets/images/05.09.2016-sass.png)
 Bagian terakhir adalah SASS. Sebenarnya ini termasuk dalam katagori tingkat lanjut. Disarankan untuk membaca bagian HTML dan CSS terlebih dahulu sebelum memulai bagian ini.
