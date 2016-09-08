@@ -4,7 +4,7 @@ description: A free HTML & CSS tutorial
 ## date: add a date when publishing
 ---
 
-![marksheet.io](/assets/images/05.09.2016-1)
+![marksheet.io](/assets/images/05.09.2016-1.png)
 [marksheet.io](http://marksheet.io "Marksheet's Homepage") merupakan tutorial HTML& CSS yang ditulis oleh [Jeremy Thomas](https://twitter.com/jgthms), seorang ahli CSS yang berdomisili di London. Terdiri dari 4 sections, 9 chapters, dan 50 lessons. Masing-masing terdiri dari;
 
 #### 1. Web section terdiri dari 3 pelajaran.
