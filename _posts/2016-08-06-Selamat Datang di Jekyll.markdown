@@ -1,10 +1,14 @@
 ---
+layout: post
 title:  "Selamat Datang di Jekyll"
 date:   2016-08-06 10:18:00
-description: Postingan Perdana di Jekyll
+permalink: jekyll
+categories:
+tags:
+image:
 ---
 
-Tulisan ini adalah tulisan pertama yang di-generate oleh Jekyll. 
+Tulisan ini adalah tulisan pertama yang di-generate oleh Jekyll.
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 

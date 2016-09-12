@@ -1,7 +1,11 @@
 ---
-title:  "Marksheet.io"
-description: A free HTML & CSS tutorial
-## date: add a date when publishing
+layout: post
+title: "Marksheet.io"
+date: 2016-08-06 10:18:00
+permalink: marksheet
+#categories:
+#tags:
+#image:
 ---
 
 ![marksheet.io](/assets/images/05.09.2016-1.png)

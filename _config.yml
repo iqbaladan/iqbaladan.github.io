@@ -1,46 +1,63 @@
-name: Iqbal Adan
-description: Blogging about GNU/Linux and Web Developments
-meta_description: "Blogging about his interest"
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
 
-aboutPage: true
+# Site settings
+title: "Iqbal Adan"
+description: > # this means to ignore newlines until "email:"
+   A Journal of Linux Fanboy
 
-markdown: kramdown
-highlighter: rouge
+email: iqbal.adan@gmail.com
 
-paginate: 20
-paginate_path: "page:num"
-baseurl: /
-domain_name: ''
-google_analytics: ''
-disqus: true
-disqus_shortname: 'iqbaladan'
+permalink: pretty
 
-# Details for the RSS feed generator
-url:            'http://iqbaladan.github.io'
-author:         'Iqbal Adan'
-authorTwitter:  'iqbaladan'
+#blog logo
+#logo: "/assets/images/df_logo.jpg"
 
-permalink:       /:year/:title/
+# blog cover
+cover: "/assets/images/front.jpg"
 
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: "" # empty string for all files
-            type: drafts
-        values:
-            layout: post
+name: 'Iqbal Adan'
+author: 'Iqbal Adan'
+author_image: "/assets/images/author.jpg"
 
-# Gems
-gems: [jekyll-paginate]
+paginate:	5
+
+url: "" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@iqbaladan'
+
+#fill in disqus shortname to use disqus
+disqus: iqbaladan
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/iqbaladan
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	facebook
+    url:	https://facebook.com/iqbal.adan.3
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/iqbaladan
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
