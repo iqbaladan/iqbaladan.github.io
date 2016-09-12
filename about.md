@@ -4,14 +4,13 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Iqbal Adan is a Linux/FLOSS enthusiast and a Web Developer from Indonesia. This blog is his place to writes down his learning experiences both Linux/FLOSS and Web Development. He chooses to blog in Bahasa. He also writes his opinions and thoughts about his daily life on [Wordpress](https://iqbaladan.wordpress.com) sometimes.
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+### More Information
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Iqbal Adan has spent almost five years as experienced Linux Administrator and hardening Linux Server. Right now he is diving into the new world of Web Development and related Programming Skills. He spent almost his free time to learn how to code  and to develop websites or web apps.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+When he is not building related coding stuff, He use his time with his lovely family, read interesting books, biking and doing some sports.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+### Contact me
+If you want to stay in touch, you could send him an email to [iqbal.adan@gmail.com](mailto:iqbal.adan@gmail.com), look what he shares on [Twitter](https://twitter.com/iqbaladan), what he did on his [Github account](https://github.com/iqbaladan), or perhaps want to be his Friend on [Facebook](https://www.facebook.com/iqbal.adan.3).
