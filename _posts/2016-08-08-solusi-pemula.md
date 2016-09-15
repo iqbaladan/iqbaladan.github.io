@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Linux untuk Pemula"
-date:   2016-08-08 15:22:00
 permalink: linux-pemula
 ---
 

@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Selamat Datang di Jekyll"
-date:   2016-08-06 10:18:00
 permalink: jekyll
-categories:
-tags:
-image:
+#categories:
+#tags:
+#image:
 ---
 
 Tulisan ini adalah tulisan pertama yang di-generate oleh Jekyll.

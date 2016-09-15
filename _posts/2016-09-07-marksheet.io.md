@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Marksheet.io"
-date: 2016-08-06 10:18:00
 permalink: marksheet
 #categories:
 #tags:
