@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Marksheet.io"
-permalink: marksheet
+permalink: marksheet.io
 #categories:
 #tags:
 image: /assets/images/05.09.2016-1.png
