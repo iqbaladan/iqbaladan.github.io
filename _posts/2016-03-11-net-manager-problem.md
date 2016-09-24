@@ -9,18 +9,14 @@ permalink: network-manager-problem
 Berikut ini adalah solusinya;
 
 {% highlight bash %}
-
 $ nano /etc/NetworkManager/NetworkManager.conf
-
 {% endhighlight %}
 
 {% highlight bash %}
-
 [main]
 plugins=ifupdown,keyfile
 [ifupdown]
 managed=false
-
 {% endhighlight %}
 
-Ganti false ke true, kemudian reboot. Masalah selesai, sekarang Aplet Network Manager kita work like a charm.
+Ganti *false* ke *true*, kemudian *reboot* sistem Linux. Masalah selesai, sekarang *Aplet Network Manager* kita sudah dapat kembali secara normal.
