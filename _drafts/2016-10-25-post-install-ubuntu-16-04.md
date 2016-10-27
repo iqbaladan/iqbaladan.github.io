@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Things to do after installing ubuntu 16.04"
+title: "12 Hal yang Saya Lakukan Setelah Install Ubuntu 16.04"
 permalink: post-install-ubuntu
 #categories:
 #tags: HTML5
-#image: /assets/images/05.09.2016-1.png
+image: /assets/images/ubuntu_wallpaper.png
 ---
 
 Dulu saya menggunakan Fedora dalam jangka waktu cukup lama, mencoba hal-hal yang berkaitan dengan RPM (RedHat Package Manager). Baru baru ini saya mencoba hal baru. Saya mencoba menggunakan Ubuntu versi 16.04 LTS, sesaat setelah dirilis. Dari pengalaman saya menggunakan linux, Ubuntu tidak terlalu asing, walaupun saya sendiri belum pernah memasang Ubuntu pada komputer saya. Ubuntu sendiri merupakan turunan dari keluarga Debian. Ngomong-ngomong soal Debian, sebelum menggunakan Fedora, saya sempat lama menggunakan Debian, jadi saya pikir tidak terlalu sulit untuk mencoba Ubuntu,mengingat Ubuntu masih turunan dari Debian.
@@ -28,23 +28,29 @@ $ sudo apt-get install ubuntu-restricted-extras
 Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara default posisi launcher di sebelah kiri. Tapi sekarang Launcher dapat dipindahkan ke bawah dan ke samping kiri.
 
 #### Pindahkakan launcher ke bawah
+![LauncherBottom](/assets/images/launcher_bottom.png)
 {% highlight bash %}
 $ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 {% endhighlight %}
 
 #### Pindahkan launcher ke samping kiri
+
+![LauncherLeft](/assets/images/launcher_left.png)
+
 {% highlight bash %}
 $ gsettings set com.canonical.Unity.Launcher launcher-position Left
 {% endhighlight %}
 
 ### 4. Menghilangkan Guest Session
 Ubuntu memungkin siapapun dapat login ke system tanpa password. Karena alasan kemanan, kita dapat menghilangkan Gues Session.
+
 {% highlight bash %}
 $ sudo sh -c "echo 'allow-guest=false' >> /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf"
 {% endhighlight %}
 
 ### 5. Install Flash Player
 Ubuntu tidak memasang Flash player secara bawaan. Flash player diperlukan untuk menjalankan flash media dalam peramban web. Flash palyer dapat dipasang dengan menggunakan perintah berikut ini di terminal.
+
 {% highlight bash %}
 $ sudo apt-get install flashplugin-installer
 {% endhighlight %}
@@ -66,11 +72,13 @@ $ sudo dpkg -i --force-depends google-chrome-stable_current_i386.deb
 {% endhighlight %}
 
 ### 8. Install Skype
+![Skype](/assets/images/skype.png)
 {% highlight bash %}
 $ sudo apt-get update && sudo apt-get install skype
 {% endhighlight %}
 
 ### 9. Install Atom text editor
+![AtomTextEditor](/assets/images/AtomEditor.png)
 {% highlight bash %}
 $ sudo add-apt-repository ppa:webupd8team/atom
 $ sudo apt-get update
