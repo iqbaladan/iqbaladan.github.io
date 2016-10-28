@@ -15,31 +15,32 @@ Jadi ini adalah beberapa hal yang saya lakukan setelah memasang Ubuntu 16.04 di 
 Walaupun melakukan fresh install, update system tetap perlu dilakukan, karena bisa jadi ada pembaharuan paket atau bug yang perlu diperbaiki setelah tanggal rilis.
 
 Hal ini bisa dilakukan dengan:
-1. Menjalankan perkakas Software Updater dari Unity Dash.
-2. Centang tombol check for updates
-3. Pasang (Install)
+
+  1. Menjalankan perkakas Software Updater dari Unity Dash.
+  2. Centang tombol check for updates
+  3. Pasang (Install)
 
 ### 2. Install Media Codecs
-{% highlight bash %}
-$ sudo apt-get install ubuntu-restricted-extras
-{% endhighlight %}
+  {% highlight bash %}
+  $ sudo apt-get install ubuntu-restricted-extras
+  {% endhighlight %}
 
 ### 3. Memindahkan Launcher ke bawah
 Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara default posisi launcher di sebelah kiri. Tapi sekarang Launcher dapat dipindahkan ke bawah dan ke samping kiri.
 
 #### Pindahkakan launcher ke bawah
-![LauncherBottom](/assets/images/launcher_bottom.png)
+
 {% highlight bash %}
 $ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 {% endhighlight %}
+![LauncherBottom](/assets/images/launcher_bottom.png)
 
 #### Pindahkan launcher ke samping kiri
-
-![LauncherLeft](/assets/images/launcher_left.png)
 
 {% highlight bash %}
 $ gsettings set com.canonical.Unity.Launcher launcher-position Left
 {% endhighlight %}
+![LauncherLeft](/assets/images/launcher_left.png)
 
 ### 4. Menghilangkan Guest Session
 Ubuntu memungkin siapapun dapat login ke system tanpa password. Karena alasan kemanan, kita dapat menghilangkan Gues Session.
@@ -73,6 +74,7 @@ $ sudo dpkg -i --force-depends google-chrome-stable_current_i386.deb
 
 ### 8. Install Skype
 ![Skype](/assets/images/skype.png)
+
 {% highlight bash %}
 $ sudo apt-get update && sudo apt-get install skype
 {% endhighlight %}
