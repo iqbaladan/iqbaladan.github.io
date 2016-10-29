@@ -21,12 +21,12 @@ Hal ini bisa dilakukan dengan:
   3. Pasang (Install)
 
 ### 2. Install Media Codecs
-  {% highlight bash %}
-  $ sudo apt-get install ubuntu-restricted-extras
-  {% endhighlight %}
+{% highlight bash %}
+$ sudo apt-get install ubuntu-restricted-extras
+{% endhighlight %}
 
 ### 3. Memindahkan Launcher ke bawah
-Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara default posisi launcher di sebelah kiri. Tapi sekarang Launcher dapat dipindahkan ke bawah dan ke samping kiri.
+Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara default posisi launcher di sebelah kiri. Tapi sekarang Launcher dapat dipindahkan ke bawah dan ke samping kiri. Sebenarnya ini hanya masalah selera saja.
 
 #### Pindahkakan launcher ke bawah
 
@@ -43,7 +43,7 @@ $ gsettings set com.canonical.Unity.Launcher launcher-position Left
 ![LauncherLeft](/assets/images/launcher_left.png)
 
 ### 4. Menghilangkan Guest Session
-Ubuntu memungkin siapapun dapat login ke system tanpa password. Karena alasan kemanan, kita dapat menghilangkan Gues Session.
+Ubuntu memungkin siapapun dapat login ke system tanpa password. Karena alasan keamanan, kita dapat menghilangkan Guest Session.
 
 {% highlight bash %}
 $ sudo sh -c "echo 'allow-guest=false' >> /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf"
@@ -57,6 +57,8 @@ $ sudo apt-get install flashplugin-installer
 {% endhighlight %}
 
 ### 6. Enable 'Minimise on click'
+Nah, biasanya apabila satu aplikasi kita buka dan jalankan, aplikasi tersebut dapat di-minimise, tapi pada Ubuntu, untuk dapat melakukan ini, harus dengan mengatur *launcher minimise* menjadi *true* dengan perintah seperti di bawah ini'
+
 {% highlight bash %}
 $ gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 {% endhighlight %}
@@ -74,7 +76,6 @@ $ sudo dpkg -i --force-depends google-chrome-stable_current_i386.deb
 
 ### 8. Install Skype
 ![Skype](/assets/images/skype.png)
-
 {% highlight bash %}
 $ sudo apt-get update && sudo apt-get install skype
 {% endhighlight %}
@@ -88,6 +89,7 @@ $ sudo apt-get install atom
 {% endhighlight %}
 
 ### 10. Install Sublime Text 3
+![Sublime Text 3](/assets/images/sublimetext3.png)
 {% highlight bash %}
 $ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 $ sudo apt-get update
