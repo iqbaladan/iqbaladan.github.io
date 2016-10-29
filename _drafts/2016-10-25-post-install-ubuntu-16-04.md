@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "12 Hal yang Saya Lakukan Setelah Install Ubuntu 16.04 LTS"
-permalink: post-install-ubuntu
+title: "13 Hal yang Saya Lakukan Setelah Install Ubuntu 16.04 LTS"
+permalink: post-install-ubuntu-lts
 #categories:
 #tags: HTML5
 image: /assets/images/ubuntu_wallpaper.png
@@ -142,4 +142,15 @@ lalu *restart*
 $ sudo shutdown -r 0
 {% endhighlight %}
 
+Kira-kira penampakan terminal zsh saya kurang lebih seperti ini ![Terminall OhMyZsh](/assets/images/myterminal.png)
+
 Untuk informasi lebih lanjut tentang 'Oh My Zsh' dan cara installasi di ubuntu dapat merujuk ke [Getting oh-my-zsh to work in Ubuntu](https://gist.github.com/tsabat/1498393) dan Repository RobbyRussell tentang [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+### 13. Install Aplikasi lain yang sering digunakan.
+Langkah berikutnya adalah memasang aplikasi-aplikasi yang akan digunakan untuk keperluan kerja dan hiburan sehari-hari seperti aplikasi perkantoran(biasanya sudah ada secara *default*), editing gambar, music dan video player dan lain-lain sesuai kebutuhan.
+
+{% highlight bash %}
+$ sudo apt-get install inkscape gimp vlc audacity
+{% endhighlight %}
+
+Itulah 13 hal yang saya lakukan setelah install Ubuntu 16.04 LTS, semoga bermanfaat, saran dan masukan akan diterima dengan senang hati.
