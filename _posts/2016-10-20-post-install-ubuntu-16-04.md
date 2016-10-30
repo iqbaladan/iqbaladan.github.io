@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "13 Hal yang Saya Lakukan Setelah Install Ubuntu 16.04 LTS"
+title: "14 Hal yang Saya Lakukan Setelah Install Ubuntu 16.04 LTS"
 permalink: post-install-ubuntu-lts
 #categories:
 #tags: HTML5
@@ -14,13 +14,22 @@ Jadi ini adalah 13 hal yang saya lakukan setelah memasang Ubuntu 16.04, di antar
 ### 1. Update System
 Walaupun melakukan fresh install, update system tetap perlu dilakukan, karena bisa jadi ada pembaharuan paket atau bug yang perlu diperbaiki setelah tanggal rilis.
 
-Hal ini bisa dilakukan dengan:
+![](/assets/images/soft-updater.png)
 
-  1. Menjalankan perkakas Software Updater dari Unity Dash.
-  2. Centang tombol check for updates
-  3. Pasang (Install)
+Hal ini dapat dilakukan secara GUI (*Graphical User Interface*) dengan:
+
+  1. **Menjalankan perkakas Software Updater dari Unity Dash.**
+  2. **Centang tombol check for updates**
+  3. **Pasang (Install)**
+
+Atau dengan menggunakan CLI (*Command Line Interface*) dengan mengetikkan perintah;
+
+```bash
+$ sudo apt-get update && apt-get upgrade
+```
 
 ### 2. Install Media Codecs
+
 {% highlight bash %}
 $ sudo apt-get install ubuntu-restricted-extras
 {% endhighlight %}
@@ -33,14 +42,14 @@ Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara def
 {% highlight bash %}
 $ gsettings set com.canonical.Unity.Launcher launcher-position Bottom
 {% endhighlight %}
-![LauncherBottom](/assets/images/launcher_bottom.png)
+![](/assets/images/launcher_bottom.png)
 
 ##### Pindahkan launcher ke samping kiri
 
 {% highlight bash %}
 $ gsettings set com.canonical.Unity.Launcher launcher-position Left
 {% endhighlight %}
-![LauncherLeft](/assets/images/launcher_left.png)
+![](/assets/images/launcher_left.png)
 
 ### 4. Menghilangkan *Guest Session*
 
@@ -80,14 +89,14 @@ $ sudo dpkg -i --force-depends google-chrome-stable_current_i386.deb
 
 ### 8. Install Skype
 
-![Skype](/assets/images/skype.png)
+![](/assets/images/skype.png)
 {% highlight bash %}
 $ sudo apt-get update && sudo apt-get install skype
 {% endhighlight %}
 
 ### 9. Install Atom text editor
 
-![AtomTextEditor](/assets/images/AtomEditor.png)
+![](/assets/images/AtomEditor.png)
 
 {% highlight bash %}
 $ sudo add-apt-repository ppa:webupd8team/atom
@@ -97,7 +106,7 @@ $ sudo apt-get install atom
 
 ### 10. Install Sublime Text 3
 
-![Sublime Text 3](/assets/images/sublimetext3.png)
+![](/assets/images/sublimetext3.png)
 
 {% highlight bash %}
 $ sudo add-apt-repository ppa:webupd8team/sublime-text-3
@@ -107,7 +116,7 @@ $ sudo apt-get install sublime-text-installer
 
 ### 11. Install Telegram Messenger
 
-![Telegram](/assets/images/telegram.png)
+![](/assets/images/telegram.png)
 
 {% highlight bash %}
 $ sudo add-apt-repository ppa:atareao/telegram
@@ -119,7 +128,7 @@ $ sudo apt-get install telegram
 
 Oh My Zsh merupakan *framework open source* untuk mmengatur konfigutasi zsh terminal kita. Sejak melihat beberapa tutorial di youtube, saya penasaran bagaimana membuat terminal menjadi begitu menarik dan simple, ternyata yang digunakan adalah Oh My Zsh.
 
-![Oh My Zsh](/assets/images/OhMyZsh.png)
+![](/assets/images/OhMyZsh.png)
 
 Sebelumnya kita harus memasang zsh dan git-core terlebih dahulu;
 
@@ -142,7 +151,7 @@ lalu *restart*
 $ sudo shutdown -r 0
 {% endhighlight %}
 
-Kira-kira penampakan terminal zsh saya kurang lebih seperti ini ![Terminall OhMyZsh](/assets/images/myterminal.png)
+Kira-kira penampakan terminal zsh saya kurang lebih seperti ini ![](/assets/images/myterminal.png)
 
 Untuk informasi lebih lanjut tentang 'Oh My Zsh' dan cara installasi di ubuntu dapat merujuk ke [Getting oh-my-zsh to work in Ubuntu](https://gist.github.com/tsabat/1498393) dan Repository RobbyRussell tentang [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -156,6 +165,24 @@ Pertama yang harus dilakukan adalah menambahkan repository VirtualBox ke dalam r
 deb http://download.virtualbox.org/virtualbox/debian xenial contrib
 ```
 
+Langkah berikutnya adalah menambahkan Public Key dari Oracle;
+
+```bash
+$ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+$ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+```
+Jika sudah berhasil, selanjutnya adalah install virtual box dengan menggunakan perintah;
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install virtualbox-5.1
+```
+Perintah tersebut akan menginstall virtualbox versi 5.1, jika sudah berhasil, virtualbox dapat dijalankan dengan perintah'
+
+```bash
+$ virtualbox
+```
+![](/assets/images/VirtualBox.png)
 
 ### 14. Install Aplikasi lain yang sering digunakan.
 Langkah berikutnya adalah memasang aplikasi-aplikasi yang akan digunakan untuk keperluan kerja dan hiburan sehari-hari seperti aplikasi perkantoran(biasanya sudah ada secara *default*), editing gambar, music dan video player dan lain-lain sesuai kebutuhan.
@@ -164,4 +191,4 @@ Langkah berikutnya adalah memasang aplikasi-aplikasi yang akan digunakan untuk k
 $ sudo apt-get install inkscape gimp vlc audacity
 {% endhighlight %}
 
-Itulah 13 hal yang saya lakukan setelah install Ubuntu 16.04 LTS, semoga bermanfaat, saran dan masukan akan diterima dengan senang hati.
+Itulah 14 hal yang saya lakukan setelah install Ubuntu 16.04 LTS, semoga bermanfaat, saran dan masukan akan diterima dengan senang hati.
