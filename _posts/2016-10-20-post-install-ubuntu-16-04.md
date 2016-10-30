@@ -156,6 +156,7 @@ Pertama yang harus dilakukan adalah menambahkan repository VirtualBox ke dalam r
 deb http://download.virtualbox.org/virtualbox/debian xenial contrib
 ```
 
+
 ### 14. Install Aplikasi lain yang sering digunakan.
 Langkah berikutnya adalah memasang aplikasi-aplikasi yang akan digunakan untuk keperluan kerja dan hiburan sehari-hari seperti aplikasi perkantoran(biasanya sudah ada secara *default*), editing gambar, music dan video player dan lain-lain sesuai kebutuhan.
 
