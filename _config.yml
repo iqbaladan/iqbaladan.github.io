@@ -29,6 +29,9 @@ baseurl: ""
 #used to display twitter cards
 twitter_handle: '@iqbaladan'
 
+# Google Services
+google_analytics: UA-86549377-1
+
 #fill in disqus shortname to use disqus
 disqus: iqbaladan
 
