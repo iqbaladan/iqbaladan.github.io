@@ -25,14 +25,18 @@ Hal ini dapat dilakukan secara GUI (*Graphical User Interface*) dengan:
 Atau dengan menggunakan CLI (*Command Line Interface*) dengan mengetikkan perintah;
 
 ```bash
+
 $ sudo apt-get update && apt-get upgrade
+
 ```
 
 ### 2. Install Media Codecs
 
-{% highlight bash %}
+``` bash
+
 $ sudo apt-get install ubuntu-restricted-extras
-{% endhighlight %}
+
+```
 
 ### 3. Memindahkan Launcher ke bawah
 Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara default posisi launcher di sebelah kiri. Tapi sekarang Launcher dapat dipindahkan ke bawah dan ke samping kiri. Sebenarnya ini hanya masalah selera saja.

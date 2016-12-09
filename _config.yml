@@ -3,6 +3,10 @@ gems:
   - jemoji
   - jekyll-paginate
 
+markdown: kramdown
+kramdown:
+  input: GFM
+
 # Site settings
 title: "Iqbal Adan"
 description: > # this means to ignore newlines until "email:"
