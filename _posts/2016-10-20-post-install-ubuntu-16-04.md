@@ -25,17 +25,13 @@ Hal ini dapat dilakukan secara GUI (*Graphical User Interface*) dengan:
 Atau dengan menggunakan CLI (*Command Line Interface*) dengan mengetikkan perintah;
 
 ```bash
-
 $ sudo apt-get update && apt-get upgrade
-
 ```
 
 ### 2. Install Media Codecs
 
 ``` bash
-
 $ sudo apt-get install ubuntu-restricted-extras
-
 ```
 
 ### 3. Memindahkan Launcher ke bawah
