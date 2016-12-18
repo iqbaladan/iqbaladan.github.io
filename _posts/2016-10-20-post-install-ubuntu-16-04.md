@@ -144,7 +144,7 @@ $ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O 
 
 dan kemudian menggantikan terminal shell menjadi zsh
 
-$ chsh -s `which zsh`
+$ chsh -s 'which zsh'
 
 lalu *restart*
 {% highlight bash %}
