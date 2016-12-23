@@ -24,15 +24,15 @@ Hal ini dapat dilakukan secara GUI (*Graphical User Interface*) dengan:
 
 Atau dengan menggunakan CLI (*Command Line Interface*) dengan mengetikkan perintah;
 
-```bash
+{% highlight bash %}
 $ sudo apt-get update && apt-get upgrade
-```
+{% endhighlight %}
 
 ### 2. Install Media Codecs
 
-``` bash
+{% highlight bash %}
 $ sudo apt-get install ubuntu-restricted-extras
-```
+{% endhighlight %}
 
 ### 3. Memindahkan Launcher ke bawah
 Bagi pengguna Fedora, Launcher biasanya di atas atau di bawah, ubuntu secara default posisi launcher di sebelah kiri. Tapi sekarang Launcher dapat dipindahkan ke bawah dan ke samping kiri. Sebenarnya ini hanya masalah selera saja.
@@ -144,7 +144,9 @@ $ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O 
 
 dan kemudian menggantikan terminal shell menjadi zsh
 
+{% highlight bash %}
 $ chsh -s 'which zsh'
+{% endhighlight %}
 
 lalu *restart*
 {% highlight bash %}
@@ -160,28 +162,29 @@ VirtualBox saya perlukan untuk mencoba beberapa distro lain untuk perbandingan d
 
 Pertama yang harus dilakukan adalah menambahkan repository VirtualBox ke dalam repo sistem dengan cara merubah berkas **/etc/apt/sources.list** dengan menambahkan;
 
-```bash
+{% highlight bash %}
 ## For Ubuntu 16.04 ("Xenial")
 deb http://download.virtualbox.org/virtualbox/debian xenial contrib
-```
+{% endhighlight %}
 
 Langkah berikutnya adalah menambahkan Public Key dari Oracle;
 
-```bash
+{% highlight bash %}
 $ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 $ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-```
+{% endhighlight %}
+
 Jika sudah berhasil, selanjutnya adalah install virtual box dengan menggunakan perintah;
 
-```bash
+{% highlight bash %}
 $ sudo apt-get update
 $ sudo apt-get install virtualbox-5.1
-```
+{% endhighlight %}
 Perintah tersebut akan menginstall virtualbox versi 5.1, jika sudah berhasil, virtualbox dapat dijalankan dengan perintah'
 
-```bash
+{% highlight bash %}
 $ virtualbox
-```
+{% endhighlight %}
 ![](/assets/images/VirtualBox.png)
 
 ### 14. Install Aplikasi lain yang sering digunakan.
