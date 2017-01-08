@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "14 Hal yang Saya Lakukan Setelah Install Ubuntu 16.04 LTS"
-permalink: post-install-ubuntu-lts
-#categories:
-#tags: HTML5
-image: /assets/images/ubuntu_wallpaper.png
+cover: true
+title: 14 Hal yang Saya Lakukan setelah Install Ubuntu 16.04
+date: 2016-10-20 10:18:00
+tags: Linux Ubuntu
+subclass: 'post tag-linux'
+categories: 'iqbaladan'
+navigation: True
+logo: 'assets/images/iqbal.png'
+cover: 'assets/images/cover8.png'
+disqus: false
 ---
 
 Dulu saya menggunakan Fedora dalam jangka waktu cukup lama, mencoba hal-hal yang berkaitan dengan RPM (*RedHat Package Manager*). Baru baru ini saya mencoba hal baru. Saya mencoba menggunakan Ubuntu versi 16.04 LTS, sesaat setelah dirilis. Dari pengalaman saya menggunakan linux, Ubuntu tidak terlalu asing, walaupun saya sendiri belum pernah memasang Ubuntu pada komputer saya. Ubuntu sendiri merupakan turunan dari keluarga Debian. Ngomong-ngomong soal Debian, sebelum menggunakan Fedora, saya sempat lama menggunakan Debian, jadi saya pikir tidak terlalu sulit untuk mencoba Ubuntu,mengingat Ubuntu masih turunan dari Debian.

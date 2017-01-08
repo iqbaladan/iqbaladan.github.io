@@ -1,70 +1,75 @@
-# Build settings
-gems:
-  - jemoji
-  - jekyll-paginate
-
+# Jykell configuration
+#markdown: redcarpet
+#highlighter: pygments
 markdown: kramdown
-kramdown:
-  input: GFM
+highlighter: rouge
+paginate: 5
+language: 'en-uk'
 
-# Site settings
-title: "Iqbal Adan"
-description: > # this means to ignore newlines until "email:"
-   A Journal of Iqbal Adan
+# Website info
+name: 'Iqbal Adan Weblogs'
+description: "A log about Linux and Web Development"
 
-email: iqbal.adan@gmail.com
-
-permalink: pretty
-
-#blog logo
-#logo: "/assets/images/df_logo.jpg"
-
-# blog cover
-cover: "/assets/images/front1.jpg"
-
-name: 'Iqbal Adan'
+# Author's info
 author: 'Iqbal Adan'
-author_image: "/assets/images/author.jpg"
+# edit 'categories' in the front matter of every post to match this username
+nickname: iqbaladan
+bio: 'Linux/FLOSS enthusiast and a Web Developer'
+location: 'Aceh, Indonesia'
+url: #'http://iqbaladan.github.io/'
+image: 'assets/images/author.jpg'
 
-paginate:	5
-
-url: "" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@iqbaladan'
-
-# Google Services
+short_url: #'biomadeira.github.io/jasper/'
 google_analytics: UA-86549377-1
-
-#fill in disqus shortname to use disqus
 disqus: iqbaladan
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /
 
-# social icons and sharing options
-#social:
-#  - icon:	twitter
-#    url:	https://twitter.com/iqbaladan
-#    desc: Follow me on twitter
-#    share_url: http://twitter.com/share
-#    share_title: ?text=
-#    share_link: "&amp;url="
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
 
-#  - icon:	github
-#    url:	https://github.com/iqbaladan
-#    desc:	Fork me on github
-#    share_url:
-#    share_title:
-#    share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+# gems and other configs
+gems: [jekyll-paginate]
+exclude: [vendor]
 
-#  - icon:  facebook
-#    url: https://facebook.com/iqbal.adan.3
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+#safe: false
+#lsi: false
+#username: biomadeira
+#repo: jasper
+#branch: master
+#relative_source: ../jasper/
+#destination: ../jasper-pages/
+#production_url:  https://biomadeira.github.io/jasper/
+#source_url:      https://github.com/biomadeira/jasper/
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml

@@ -1,7 +1,14 @@
 ---
 layout: post
-title: "Linux untuk Pemula"
-permalink: linux-pemula
+cover: false
+title: Linux Untuk Pemula
+date: 2016-08-08 10:18:00
+tags: Linux
+subclass: 'post tag-linux'
+categories: 'iqbaladan'
+navigation: True
+logo: 'assets/images/iqbal.png'
+#cover: 'assets/images/cover8.png'
 ---
 
 Dulu sekali, sebelum saya mengenal dan mempunya e-mail, saya sering bertanya sana sini tentang bagaimana membuat sebuah alamat e-mail, dan jawaban yang saya dapat waktu itu sangat sangat tidak menyenangkan, dari beberapa orang yang saya tanya, sarannya hampir semua sama, googling, cari dan baca sendiri.
