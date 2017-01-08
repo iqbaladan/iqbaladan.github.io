@@ -9,6 +9,7 @@ categories: 'iqbaladan'
 navigation: True
 logo: 'assets/images/iqbal.png'
 #cover: 'assets/images/cover8.png'
+disqus: true
 ---
 ---
 

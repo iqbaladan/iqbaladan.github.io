@@ -9,6 +9,7 @@ categories: 'iqbaladan'
 navigation: True
 logo: 'assets/images/iqbal.png'
 cover: 'assets/images/cover10.png'
+disqus: true
 ---
 
 [marksheet.io](http://marksheet.io "Marksheet's Homepage") merupakan tutorial HTML& CSS yang ditulis oleh [Jeremy Thomas](https://twitter.com/jgthms), seorang ahli CSS yang berdomisili di London. Terdiri dari 4 sections, 9 chapters, dan 50 lessons. Masing-masing terdiri dari;

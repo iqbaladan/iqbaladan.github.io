@@ -9,6 +9,7 @@ categories: 'iqbaladan'
 navigation: True
 logo: 'assets/images/iqbal.png'
 #cover: 'assets/images/cover8.png'
+disqus: true
 ---
 
 Dulu sekali, sebelum saya mengenal dan mempunya e-mail, saya sering bertanya sana sini tentang bagaimana membuat sebuah alamat e-mail, dan jawaban yang saya dapat waktu itu sangat sangat tidak menyenangkan, dari beberapa orang yang saya tanya, sarannya hampir semua sama, googling, cari dan baca sendiri.
