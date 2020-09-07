@@ -9,7 +9,7 @@ categories: 'iqbaladan'
 navigation: True
 #logo: 'assets/images/iqbal.png'
 #cover: 'assets/images/cover8.png'
-disqus: true
+disqus: false
 ---
 
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
